@@ -34,4 +34,53 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5cc9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  margin-left: 4rem;
+  margin-bottom: 12rem;
+  margin-right: 4rem; 
+}
+.container{
+  display:flex;
+  
+
+}
+.card {
+  width: 500px;
+  border-radius: 40px;
+  padding: 30px;
+  background-color: white;
+}
+
+.info img{
+  border-radius: 20px;
+
+}
+.info p{
+  color:rgb(155, 109, 55);
+  font-size: 15px;
+}
+.info h2{
+  color: rgb(108, 80, 39)
+}
+.text{
+  color:rgb(110, 80, 35) ;
+}
+.number{
+  color: #5f4209;
+  font-size: 2rem;
+}
+.btn{
+position: inherit;
+align-items: center;
+text-align: center ;
+padding:10px;
+background-color: #5f4209;
+color: white;
+border-radius: 30px;
+display: block;
+margin: 10px;
 }
